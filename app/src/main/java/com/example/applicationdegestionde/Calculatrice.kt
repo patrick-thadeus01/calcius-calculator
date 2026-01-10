@@ -76,7 +76,7 @@ fun CalculatricePreview() {
         }
     }
 
-    // Appelé pour les chiffres 0–9
+    // gerer les chiffres 0–9 
     fun onDigit(c: Char) {
         if (display == "0" && c != '0') {
             display = c.toString()
