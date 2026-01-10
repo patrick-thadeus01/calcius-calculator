@@ -51,7 +51,6 @@ fun CalculatricePreview() {
     // Supprime le dernier caractère
     fun onDelete() {
 
-
         display = if (display.length <= 1) {
             "0"
         } else {
