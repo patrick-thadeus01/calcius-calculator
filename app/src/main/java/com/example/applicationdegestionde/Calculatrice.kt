@@ -45,7 +45,7 @@ fun CalculatricePreview() {
     fun onClear() {
         operande = null
         operator = null
-        display = "0"
+        display = " 0 "
     }
 
     // Supprime le dernier caractère
