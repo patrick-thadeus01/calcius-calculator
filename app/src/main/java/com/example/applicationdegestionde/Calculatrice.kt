@@ -60,6 +60,7 @@ fun CalculatricePreview() {
 
     // Change le signe
     fun onToggleSign() {
+        
         if (display == "0") return
         display = if (display.startsWith("-")) {
             display.removePrefix("-")
