@@ -87,6 +87,7 @@ fun CalculatricePreview() {
         }
     }
 
+//gerer l'operation
     fun onEquals() {
         val left = operande
         val right = display.toDoubleOrNull()
